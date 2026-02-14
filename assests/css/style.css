@@ -20,3 +20,12 @@
     list-style: none;
     text-decoration: none ;
 }
+:root{
+    --main-color: #740A03;
+    --secondary-color: #C3110C;
+    --orange: #E6501B;
+    --black: #00000000;
+    --gray: #30364f;
+    --gray: #ffffff;
+
+}
