@@ -1,31 +1,40 @@
-
-.color{
-    background-color: gray;
-}
-.nav{
-    background-color: darkcyan;
-    margin: 0px;
-}
-.nav ul{
-    display: flex;
-    padding: 10px;
-    
-}
-.nav ul li{
-    list-style: none;
-    margin: 0 10px;
-}
-.nav ul li a{
-    color: black;
-    list-style: none;
-    text-decoration: none ;
-}
 :root{
     --main-color: #740A03;
     --secondary-color: #C3110C;
     --orange: #E6501B;
-    --black: #00000000;
+    --black: #000000;
     --gray: #30364f;
-    --gray: #ffffff;
-
+    --white: #ffffff;
 }
+.color{
+    background-color:var(--orange);
+}
+.nav{
+    background-color:var(--main-color);
+    margin: 0px;
+    
+}
+.nav ul{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+.nav ul li{
+    list-style: none;
+    margin: 0 10px;
+    padding: 10px;
+    
+}
+.nav ul li a{
+    color:  var(--white);
+    list-style: none;
+    text-decoration: none ;
+    transition:  0.3s;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.nav ul li  :hover{
+  color: var(--secondary-color)
+}
+
