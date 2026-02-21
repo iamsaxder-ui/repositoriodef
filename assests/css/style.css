@@ -87,7 +87,8 @@ list-style: none;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;   
 gap: 20px;
-row-gap: 20px
+row-gap: 20px;
+padding: 50px 15px;
 }
 .servicios .col{
     border: 1px solid var(--gray);
@@ -95,9 +96,7 @@ row-gap: 20px
     padding: 10px;
 }
 
-.gap{
-    padding: 10px;
-}
+
 .center{
     text-align: center;
 }
@@ -114,12 +113,28 @@ p{
     background-color: var(--black);
     display: grid;
     grid-template-columns: auto auto auto auto;
+    padding: 50px 10px 30px 10px;
+    
 }
 .footer ul li, ul li a{
     list-style-type:none;
     text-decoration: none;
-    color:var(--dark-gray)
+    color:var(--white)
 }
 .logo-footer{
-    width: 100px;
+    width: 360px;
+}
+.footer h3{
+color: var(--secondary-color);
+font-size: 1.6rem;
+font-weight: 900;
+
+}
+.footer p{
+    color: var(--white);
+}
+.social-icons{
+display: flex;
+justify-content: space-around;
+
 }
