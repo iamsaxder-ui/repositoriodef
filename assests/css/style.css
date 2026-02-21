@@ -71,3 +71,8 @@ padding-top: 10px;
 .col ul li{
 list-style: none;
 }
+
+/*servicio*/
+.servicios {
+    display: grid;
+}
