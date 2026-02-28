@@ -3,6 +3,8 @@ body{
      font-family: "Comic Neue", cursive;
   font-weight: 300;
   font-style: normal;
+  padding: 0px;
+  margin: 0px;
 }
 html{
     box-sizing: border-box;
@@ -135,6 +137,7 @@ font-weight: 900;
 }
 .social-icons{
 display: flex;
-justify-content: space-around;
+justify-content: flex-start;
+padding-left: 15px;
 
 }
