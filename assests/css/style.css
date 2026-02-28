@@ -116,6 +116,7 @@ p{
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 50px 10px 30px 10px;
+   
     
 }
 .footer ul li, ul li a{
@@ -139,5 +140,90 @@ font-weight: 900;
 display: flex;
 justify-content: flex-start;
 padding-left: 15px;
+gap: 15px;
 
 }
+.copyright{
+   background-color:var(--black);
+   color: var(--white);
+   padding: 15px 20px;
+   margin: 0px;
+}
+.copyright p{
+    font-size: 10px;
+    color: var(--white);
+    
+}
+/*contacto*/
+.title-header{
+    background-color: var(--secondary-color);
+    color: var(--white);
+    padding: 10px 30px;
+
+}
+.title-header h1{
+    font-size: 50px;
+}
+.title-header p{
+    color: var(--white);
+    font-size: 20px;
+}
+.container-fluid{
+    width: 100%;
+
+}
+.contacto{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+input[type="text"],[type="email"]
+{
+   width: 100%;
+   border: 1px solid var(--gray);
+   padding: 10px;
+   border-radius: 8px;
+
+}
+label{
+color: var(--secondary-color);
+font-size: 16px; 
+padding-top: 15px;
+}
+
+select{
+    width: 100%;
+    border: 1px solid var(--dark-gray); 
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+textarea{
+      width: 100%;
+    border: 1px solid var(--dark-gray); 
+    padding: 10px;
+    border-radius: 8px;
+}
+input[type="submit"]
+{
+    background: var(--main-color);
+    color: var(--white);
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+input[type="submit"]:hover{
+    background: var(--main-color);
+    
+}
+
+
+.contacto{
+    padding: 30px 30px ;
+}
+.col{
+    padding: 30px 30px ;
+}
+
+
