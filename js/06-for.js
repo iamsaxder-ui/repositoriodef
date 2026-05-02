@@ -33,11 +33,15 @@ for (let x = 0; x <= 10; x++) {
 }
 document.getElementById("numero").innerHTML = text;
 
+
+
+
+
+
 const marcas = ["nokia", "honor", "xiaomi", "iphone", "samsung"];
 let marca ="";
 for (let x = 0; x < marcas.length; x++) {
-    marca+= "la marca es " + marcas[x] + "<br>";
-
+    marca += "la marca es " + marcas[x] + "<br>";
 }
 document.getElementById("marca").innerHTML = marca;
 
